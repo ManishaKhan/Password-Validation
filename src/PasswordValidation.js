@@ -120,7 +120,8 @@ export const PasswordValidation = () => {
           });
 
           setEmail("");
-          setPassword("")
+          setPassword("");
+          setShowPasswordIndicator(false)
         }
   }
 
