@@ -221,7 +221,7 @@ export const PasswordValidation = () => {
                 {number ? <FaCheckCircle style={{ color: "green" }} /> : <RxCrossCircled style={{ color: "red" }} />}
               </Avatar>
             </ListItemAvatar>
-            {character ? <ListItemText primary="Must contain atleast 1 number" style={{ color: "green" }} /> : <ListItemText primary="Must contain atleast 1 number" style={{ color: "red" }} />}
+            {number ? <ListItemText primary="Must contain atleast 1 number" style={{ color: "green" }} /> : <ListItemText primary="Must contain atleast 1 number" style={{ color: "red" }} />}
           </ListItem>
 
           <Divider variant="inset" component="li" />
